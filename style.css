@@ -1,0 +1,48 @@
+*{
+    margin:0;
+    font-family: arial;
+}
+body{
+    background: teal;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#main{
+    border-radius: 10px;
+    text-align: center;
+    background-color: #fff;
+    box-shadow: 0 0 4px 0 #ccc;
+    padding:2rem;
+    max-width:20rem;
+    margin:10rem auto;
+}
+#main .weather-header{
+    padding-bottom: 1rem;
+    border-bottom: 1px solid #ccc;
+}
+
+/* #main h1{
+
+} */
+
+#main .form-group input{
+    text-align: center;
+    padding:0.7rem;
+    width:85%;
+    margin:1rem 0;
+    border-radius: 20px;
+    border:1px solid #ccc;
+}
+
+#main button{
+    border-color: transparent;
+    padding:10px 12px;
+    background-color: teal;
+    color:#fff;
+    width:100%;
+    border-radius: 20px;
+}
